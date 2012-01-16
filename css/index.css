@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0px;
+	background-color: #f0efef;
+	
+}
+
+#header {
+	width: 100%;
+	height: 55px;
+	background-image: url("../images/header.png");
+	vertical-align: middle;
+}
+
+#login_form {
+	margin-top: 50px;
+	margin-left: 120px;
+}
+
+#logo {
+	padding-top: 5px;
+	padding-left: 10px;
+}

@@ -1,0 +1,257 @@
+/**
+  Copyright (c) 2011 - Tőkés Attila
+  
+  This software is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+   
+  This software is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY.
+ 
+  See the license.txt file for more details.
+*/
+
+html, body {
+	height: 100%;
+	margin:0;
+	font-size: 10px;
+}
+
+ul, ol, li {
+	font-size: 12pt;
+}
+
+a {
+	color: #0059D6;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:active, a:hover {
+	text-decoration: underline;
+}
+
+#dialog {
+	display: none;
+}
+
+#wrapper {
+	display: table;
+	width: 100%;	
+	height: 100%;
+}
+
+#header-container {
+	display: table-row;
+	height: 50px;
+}
+
+#header {
+	display: table;
+	width: 100%;
+	height: 55px;
+	background-image: url("../images/header.png");
+	vertical-align: middle;
+}
+
+#logo {
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+#content-row-wrapper {
+	display: table-row;
+}
+#content-cell-wrapper {
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+}
+
+#content-table-container {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#content-row-container {
+	display: table-row;
+	height: 100%;
+}
+
+#left-menu-wrapper {
+	display: table-cell;
+	width: 250px;
+	background-image: url("../images/menu.png");
+	overflow: hidden;
+}
+
+#left-menu-content {
+	padding: 25px;
+}
+
+#content-wrapper-cell {
+	display: table-cell;
+	background-color: #f0efef;
+	padding:0;
+	margin: 0px;
+}
+
+#content-wrapper {
+	padding-left: 25px;
+}
+
+#footer-container {
+	display: table-row;
+	height: 20px;
+}
+
+#footer {
+	display: table;
+	height: 25px;
+	width: 100%;
+	background-image: url("../images/footer.png");
+}
+
+/* Home page tab */
+#home-page {
+	display: table;
+	width: 100%;
+}
+
+#home-page-top, #home-page-bottom {
+	display: table-row;
+}
+
+#home-page-actions, #home-page-info, #home-page-databases, #home-page-users {
+	display: table-cell;
+}
+
+#databases, #users {
+	padding-left: 20px;
+	line-height: 170%;
+}
+
+#error-messages {
+	padding: 0.4em .7em;
+	width: 80%;
+	background-color: #FEF1EC;
+	color: #AB0808;
+	display: none;
+	margin: 3px 0px;
+}
+
+#status-messages {
+	padding: 0.4em .7em;
+	width: 80%;
+	background-color: #CFFFD3;
+	color: #000;
+	display: none;
+	margin: 3px 0px;
+}
+
+#error-messages strong {
+	color: #000000;
+}
+
+#location a{
+	color: #000;
+	float: left;
+	font-weight: bold;
+} 
+
+#loacation {
+	margin-bottom: 0px;
+	
+}
+
+.text12 {
+	font-size: 11pt;
+}
+
+#db-table-list {
+	margin-left: 20px;
+}
+
+#db-table-list td {
+	padding-left: 20px;
+}
+
+#db-view-list {
+	margin-left: 20px;
+}
+
+#db-view-list td {
+	padding-left: 20px;
+}
+
+.column-layout {
+	display: table;
+}
+
+.column {
+	display: table-cell;
+	padding-left: 100px;
+}
+
+.first {
+	padding-left: 0px;
+}
+
+#table-field-list td, th {
+	padding: 10px;
+	text-align: center;
+}
+
+#menu-buttons {
+	position: absolute;
+	top: 0px;
+}
+
+.menu-icon {
+	background-image: url('../images/menu-icons.png');	
+	width: 32px;
+	height: 32px;
+	float:left;
+	margin: 10px;
+}
+
+.sql-button {
+	background-position: 64px 0px;
+}
+
+.sql-button:hover{
+	background-position: 64px 32px;		
+}
+	
+.refresh-button {
+	background-position: 0px 0px;
+}
+
+.refresh-button:hover{
+	background-position: 0px 32px;		
+}
+
+.logout-button {
+	background-position: 32px 0px;
+}
+
+.logout-button:hover{
+	background-position: 32px 32px;		
+}
+	
+.padding-clear {
+	font-size: 0;
+}
+
+
+#databases {
+	font-weight: bold;
+}
+
+#users {
+	font-weight: bold;
+}
